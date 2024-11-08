@@ -2,18 +2,24 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
     section{
+        padding-left: 200px;
+
         h1{
-            font-size: 50px;
+            font-size: 60px;
             font-family: "Poppins", sans-serif;
             color: #004aad;
+            margin-top: -30px;
         }
 
         p{
-            font-size: 30px;
+            font-size: 38px;
             font-family: Arial, Helvetica, sans-serif;
             color: #004aad;
+        }
+
+        img{
+            padding-right: 100px;
         }
     }
 }
