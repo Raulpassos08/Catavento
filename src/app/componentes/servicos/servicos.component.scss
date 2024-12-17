@@ -1,0 +1,34 @@
+.carrossel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        color: #004aad;
+        font-size: 60px;
+        padding-bottom: 35px;
+    }
+}
+
+.carrossel_1{
+    display: flex;
+    flex-direction: row;   
+    gap: 200px;
+    section{      
+        h3{
+            color: #004aad;
+        }
+    }
+}
+
+.carrossel_2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+    section{
+        h3{
+            color: #004aad;
+        }
+    }
+}

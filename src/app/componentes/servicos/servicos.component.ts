@@ -1,9 +1,10 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-servicos',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './servicos.component.html',
   styleUrl: './servicos.component.scss'
 })
