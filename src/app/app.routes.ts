@@ -1,7 +1,17 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './componentes/home/home.component';
+import { GestaoComponent } from './componentes/servicos/gestao/gestao.component';
+import { NgModule } from '@angular/core';
 
-export const routes: Routes = [{
-    path: "",
-    component: HomeComponent
-}];
+export const routes: Routes = [
+    {path: "", component: HomeComponent},
+    {path: "gestao", component: GestaoComponent}
+    
+];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
+})
+
+export class AppRoutingModule{}
