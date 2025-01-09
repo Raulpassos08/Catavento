@@ -1,0 +1,9 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+}
