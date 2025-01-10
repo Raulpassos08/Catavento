@@ -12,6 +12,6 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }), 
     provideClientHydration(),
     provideAnimationsAsync(),
-    importProvidersFrom(LucideAngularModule.pick({PhoneCall}))
+    importProvidersFrom(LucideAngularModule.pick({PhoneCall})), provideAnimationsAsync()
   ]
 };
