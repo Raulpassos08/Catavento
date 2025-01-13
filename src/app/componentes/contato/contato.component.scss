@@ -1,9 +1,24 @@
 .contato{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background-color: #004aad;
+    margin-right: -30px;
+    h1{
+        color: white;
+        font-size: 60px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
     section{
         display: flex;
         flex-direction: row;
+        padding-left: 30px;
+        color: white;
+
+        mat-icon{
+            padding-right: 20px;
+        }
     }
 }
