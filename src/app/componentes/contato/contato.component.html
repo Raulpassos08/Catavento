@@ -16,9 +16,23 @@
                 Maracanaú - CE</p>
         </section>
     </div>
-    <div>
-        
-        
-        
+    <div class="maps">
+        <google-map
+            height="400px"
+            width="700px"
+            [options]="options"
+        >
+        <map-marker
+        [position]="markerPosition"
+        [title]="'Catavento Consultoria Jr.'"
+        [label]="'Catavento Consultoria Jr.'"
+      ></map-marker>
+        </google-map>
     </div>
 </footer>
+<div class="links">
+   <a href=""><mat-icon class="material-icons">photo_camera</mat-icon></a> 
+    <mat-icon class="material-icons">work</mat-icon>
+    <mat-icon class="material-icons">thumb_up</mat-icon>
+
+</div>
