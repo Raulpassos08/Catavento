@@ -7,6 +7,9 @@ import { OutorgaComponent } from './componentes/servicos/outorga/outorga.compone
 import { LicencaComponent } from './componentes/servicos/licenca/licenca.component';
 import { RelatorioComponent } from './componentes/servicos/relatorio/relatorio.component';
 import { ConsultoriaComponent } from './componentes/servicos/consultoria/consultoria.component';
+import { SobreComponent } from './componentes/sobre/sobre.component';
+import { ServicosComponent } from './componentes/servicos/servicos.component';
+import { ContatoComponent } from './componentes/contato/contato.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },

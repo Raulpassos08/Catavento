@@ -3,16 +3,16 @@ footer{
     flex-direction: row;
 	justify-content: space-around;
     background-color: #004aad;
-
+    height: 600px;
     .contato{
-        margin-top: 60px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         gap: 30px;
         margin-right: -30px;
         h1{
             color: white;
-            font-size: 60px;
+            font-size: 80px;
             padding-top: 30px;
             padding-left: 30px;
         }
@@ -21,7 +21,11 @@ footer{
             flex-direction: row;
             padding-left: 30px;
             color: white;
-    
+
+            p{
+                font-size: 25px;
+            }
+
             mat-icon{
                 padding-right: 20px;
             }
@@ -29,17 +33,26 @@ footer{
     }
 
     .maps{
-        padding-top: 30px;
+        padding-top: 100px;
         padding-bottom: 30px;
     }
 }
 
 .links{
     text-align: center;
-    margin-top: 20px;
-    
+    width: 500px;
+    margin-left: 20px;
+    gap: 20px;
+
+    h2{
+        padding-top: 10px;
+    }
+
     a{
-        padding-left: 10px;
-        text-decoration: none;
+        padding-left: -10px;
+
+        img{
+            mix-blend-mode: multiply;
+        }
     }
 }

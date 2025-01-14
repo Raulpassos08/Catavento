@@ -10,7 +10,6 @@
     background-color:  #004aad;
     margin-top: -10px;
     margin-left: -10px;
-    margin-right: -10px;
     padding-top: 20px;
     img{
         margin-top: -20px;
@@ -21,7 +20,10 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
 li{
     font-size: 30px;
     font-family: "Poppins", sans-serif;
