@@ -32,9 +32,14 @@ footer{
         padding-top: 30px;
         padding-bottom: 30px;
     }
-
-    .links{
-        margin: 0 auto;
-    }
 }
 
+.links{
+    text-align: center;
+    margin-top: 20px;
+    
+    a{
+        padding-left: 10px;
+        text-decoration: none;
+    }
+}
