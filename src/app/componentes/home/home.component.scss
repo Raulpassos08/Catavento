@@ -25,3 +25,29 @@
     }
 }
 
+@media (max-width: 1271px) {
+    .partner{
+        display: flex;
+        flex-direction: column;
+        section{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 974px) {
+    .partner{
+        section{
+            img{
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .partner{
+        padding-right: 100px;
+    }
+}
