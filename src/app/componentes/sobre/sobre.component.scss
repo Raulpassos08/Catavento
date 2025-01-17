@@ -3,14 +3,13 @@
     justify-content: space-around;
     flex-direction: row;
     background-color: #004aad;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 30px 100px 0px;
     margin-top: 95px;
-   
+
     section{
-        padding-left: 50px;
+        padding-left: 40px;
         padding-top: 40px;
-        padding-right: 50px;
+
         h1{
             font-size: 50px;
             font-family: "Poppins", sans-serif;
@@ -33,10 +32,13 @@
 
         img{
             padding-top: 50px;
-            padding-right: 30px;
             border-radius: 50px solid;
         }
+
+
     }
+
+
 }
 
 @media (max-width: 1113px) {
@@ -51,5 +53,16 @@
     img{
         width: 400px;
         height: 400px;
+    }
+}
+
+@media (max-width: 430px) {
+    .sobre{
+
+        section{
+            img{
+                width: 350px;
+            }
+        }
     }
 }
