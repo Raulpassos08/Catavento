@@ -38,3 +38,18 @@
         }
     }
 }
+
+@media (max-width: 1113px) {
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 790px) {
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}

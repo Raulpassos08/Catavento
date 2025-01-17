@@ -56,3 +56,46 @@ footer{
         }
     }
 }
+
+@media (max-width: 1763px) {
+    footer{
+        gap: 50px;
+        .maps{
+            padding-right: 20px;
+        }
+    }
+  }
+  
+@media (max-width: 1233px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 150px;
+        padding-bottom: 270px;
+        padding-left: 100px;
+    }
+  }
+  
+@media (max-width: 930px) {
+    footer{
+        padding-right: 20px;
+    }
+  }
+
+@media (max-width: 800px) {
+    footer{
+        padding-left: 20px;
+    }
+  }
+
+@media (max-width: 712px) {
+    footer{
+        .maps{
+          .mapa{
+            width: 400px;
+            height: 30px;
+          }
+        }
+    }
+  }

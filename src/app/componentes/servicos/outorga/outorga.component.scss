@@ -23,3 +23,14 @@
     }
   }
   
+  @media (max-width: 880px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      img{
+        padding-left: 30px;
+      }
+    }
+  }
+  
