@@ -8,7 +8,7 @@ import { LicencaComponent } from './licenca/licenca.component';
 @Component({
   selector: 'app-servicos',
   standalone: true,
-  imports: [NgOptimizedImage, GestaoComponent,SistemasComponent,RouterLink, LicencaComponent],
+  imports: [NgOptimizedImage,RouterLink],
   templateUrl: './servicos.component.html',
   styleUrl: './servicos.component.scss'
 })
