@@ -1,8 +1,9 @@
 <header>
     <div class="container">
-        <img ngSrc="/logo.png" width="250" height="250"/>
+        <img ngSrc="/logo.png" width="250" height="250" />
         <nav>
-            <ul class="navigation">
+            <div class="hamburger" (click)="toggleMenu()">&#9776;</div>
+            <ul class="navigation" [class.open]="menuOpen">
                 <a routerLink="/"><li>Home</li></a>
                 <a href="#sobre"><li>Sobre nós</li></a>
                 <a href="#servicos"><li>Serviços</li></a>

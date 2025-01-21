@@ -1,6 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
-import { HomeComponent } from '../home/home.component';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -11,5 +10,9 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  menuOpen = false;
 
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 }

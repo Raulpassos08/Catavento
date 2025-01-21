@@ -30,17 +30,40 @@ li{
     color: white;
     margin-top: 80px;
 }
-}    
+  
+}   
+
+.hamburger {
+    display: none; /* Esconde o hambúrguer por padrão */
+    font-size: 40px; /* Tamanho do hambúrguer */
+    color: white;
+    cursor: pointer;
+  }
 
 @media (max-width: 824px) {
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .navigation{
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 50px;
-        }
+      }
+    
+      .navigation {
+        display: none; 
+        flex-direction: column;
+        padding-bottom: 50px;
+        align-items: center;
+      }
+    
+      .navigation.open {
+        display: flex; 
+      }
+    
+      .hamburger {
+        display: block;
+      }
+    
+      li {
+        font-size: 25px; 
+        margin-top: 10px;
+      }
     }
-}
