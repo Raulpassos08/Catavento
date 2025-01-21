@@ -23,17 +23,20 @@
          </section>
     </div>
     <div class="maps">
-        <google-map class="mapa"
-            height="400px"
-            width="600px"
-            [options]="options"
-        >
-        <map-marker
-        [position]="markerPosition"
-        [title]="'Catavento Consultoria Jr.'"
-        [label]="'Catavento Consultoria Jr.'"
-      ></map-marker>
-        </google-map>
+        <div style="width: 100%; height: 500px;">
+            <google-map class="mapa"
+                height="100%"
+                width="100%"
+                [options]="options"
+            >
+                <map-marker
+                [position]="markerPosition"
+                [title]="'Catavento Consultoria Jr.'"
+                [label]="'Catavento Consultoria Jr.'"
+                >
+                </map-marker>
+            </google-map>
+        </div>
     </div>
 </footer>
 

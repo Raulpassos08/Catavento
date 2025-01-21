@@ -5,25 +5,24 @@ footer{
     background-color: #004aad;
     height: 600px;
     .contato{
-        margin-top: 100px;
+        margin-top: 400px;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        margin-right: -30px;
+       
         h1{
             color: white;
             font-size: 80px;
             padding-top: 30px;
-            padding-left: 30px;
+           
         }
         section{
             display: flex;
             flex-direction: row;
-            padding-left: 30px;
             color: white;
 
             p{
-                font-size: 25px;
+                font-size: 15px;
             }
 
             mat-icon{
@@ -40,17 +39,10 @@ footer{
 
 .links{
     text-align: center;
-    width: 500px;
-    margin-left: 20px;
+    width: 500px;  
     gap: 20px;
 
-    h2{
-        padding-top: 10px;
-    }
-
     a{
-        padding-left: -10px;
-
         img{
             mix-blend-mode: multiply;
         }
@@ -59,7 +51,7 @@ footer{
 
 .maps {
     width: 100%;
-    max-width: 600px; /* Pode ser ajustado conforme necessário */
+    max-width: 500px; 
     margin: 0 auto;
   }
   
@@ -70,10 +62,9 @@ footer{
 @media (max-width: 1763px) {
     footer{
         gap: 50px;
-        .maps{
-            padding-right: 20px;
-        }
+        
     }
+    
   }
   
 @media (max-width: 1233px) {
@@ -83,7 +74,6 @@ footer{
         gap: 10px;
         padding-top: 150px;
         padding-bottom: 270px;
-        padding-left: 100px;
     }
   }
   
@@ -105,36 +95,36 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        height: 100%;
-        padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    .maps {
-        width: 10%;
-        height: 300px; 
-        margin-left: -170px;
-      }
+       
         .contato{
-            max-width: 430px;
+        padding-left: 20px;
            h1{
             font-size: 40px;
            
            }
 
            .section{
-            padding-left:0px ;
             width: 100%;
            }
            .links{
-            max-width: 430px;
+            
             display: flex;
             flex-direction: column;
-            margin: 0;
-            padding: 0;
+            
            }
         }
         
     }
+    .links{
+        max-width: 300px;
+    }
   }
+
+  @media (max-width: 800px) {
+    .maps {
+        max-width: auto;
+        width: 100%;
+    }
+  }
+
+  

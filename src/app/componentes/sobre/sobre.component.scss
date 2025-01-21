@@ -51,18 +51,8 @@
 
 @media (max-width: 790px) {
     img{
-        width: 400px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
     }
 }
 
-@media (max-width: 430px) {
-    .sobre{
-
-        section{
-            img{
-                width: 350px;
-            }
-        }
-    }
-}
