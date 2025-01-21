@@ -77,7 +77,12 @@ footer{
     }
   }
   
-
+  @media (max-width: 800px) {
+    .maps {
+        max-width: auto;
+        width: 100%;
+    }
+  }
   
 
 @media (max-width: 712px) {
@@ -119,12 +124,7 @@ footer{
     }
   }
 
-  @media (max-width: 800px) {
-    .maps {
-        max-width: auto;
-        width: 100%;
-    }
-  }
+  
 
   @media (max-width: 350px) {
     .maps {
