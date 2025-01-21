@@ -3,13 +3,15 @@ footer{
     flex-direction: row;
 	justify-content: space-around;
     background-color: #004aad;
-    height: 600px;
+   gap: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     .contato{
-        margin-top: 400px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         gap: 30px;
-       
+        
         h1{
             color: white;
             font-size: 80px;
@@ -25,9 +27,7 @@ footer{
                 font-size: 15px;
             }
 
-            mat-icon{
-                padding-right: 20px;
-            }
+            
         }
     }
 
