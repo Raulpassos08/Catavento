@@ -95,6 +95,13 @@ footer{
     }
   }
 
+  @media (max-width: 532px) {
+    .maps {
+        max-width: auto;
+        width: 80%;
+    }
+  }
+
   @media (max-width: 500px) {
     footer{
         display: flex;
@@ -121,15 +128,6 @@ footer{
     }
     .links{
         max-width: 300px;
-    }
-  }
-
-  
-
-  @media (max-width: 350px) {
-    .maps {
-        max-width: auto;
-        width: 80%;
     }
   }
 
