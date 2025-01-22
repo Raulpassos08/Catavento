@@ -43,7 +43,7 @@ li{
 @media (max-width: 824px) {
     .container {
         display: flex;
-        flex-direction: column;
+        
         align-items: center;
       }
     
@@ -59,11 +59,23 @@ li{
       }
     
       .hamburger {
-        display: block;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
       }
     
       li {
         font-size: 25px; 
         margin-top: 10px;
+      }
+    }
+
+
+    @media (max-width: 500px) {
+      .container{
+        padding-left: 50px;
+        .hamburger{
+          display: none;
+        }
       }
     }

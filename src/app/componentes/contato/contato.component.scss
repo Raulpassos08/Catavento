@@ -1,13 +1,14 @@
 footer{
     display: flex;
     flex-direction: row;
-	justify-content: space-around;
+	  justify-content: space-around;
     background-color: #004aad;
-   gap: 80px;
+    gap: 80px;
     padding-bottom: 30px;
     padding-left: 30px;
     .contato{
         margin-top: 100px;
+        padding-left: 180px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -15,14 +16,13 @@ footer{
         h1{
             color: white;
             font-size: 80px;
-            padding-top: 30px;
-           
+            padding-top: 30px;        
         }
         section{
             display: flex;
             flex-direction: row;
             color: white;
-
+            gap: 10px;
             p{
                 font-size: 15px;
             }
@@ -74,6 +74,9 @@ footer{
         gap: 10px;
         padding-top: 150px;
         padding-bottom: 270px;
+        .contato{
+          padding-left: 0px;
+        }
     }
   }
   
@@ -108,7 +111,9 @@ footer{
         flex-direction: column;
        
         .contato{
-        padding-left: 20px;
+          margin-top: 0px;
+          padding-left: 20px;
+          padding-bottom: 100px;
            h1{
             font-size: 40px;
            
